@@ -1,0 +1,7 @@
+ADD_DEFINITIONS(-DOSGDB_GLB_PLUGIN)
+
+SET(TARGET_SRC
+    ../gltf/ReaderWriterGLTF.cpp
+)
+
+SETUP_PLUGIN(glb)
